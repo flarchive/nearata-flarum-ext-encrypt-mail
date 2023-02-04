@@ -1,0 +1,5 @@
+nearata-encrypt-mail:
+  forum:
+    settings:
+      field_label: GPG Public Key
+      save_changes: Save Changes

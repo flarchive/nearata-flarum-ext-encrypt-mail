@@ -1,0 +1,36 @@
+{
+    "name": "nearata/flarum-ext-encrypt-mail",
+    "description": "Encrypt outgoing emails with PGP",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "Unlicense",
+    "require": {
+        "flarum/core": "^1.6.0"
+    },
+    "authors": [
+        {
+            "name": "Nearata",
+            "email": "nearata@protonmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nearata\\EncryptMail\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Encrypt Mail",
+            "category": "feature",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        }
+    }
+}
